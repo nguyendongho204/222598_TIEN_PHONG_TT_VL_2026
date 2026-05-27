@@ -1,0 +1,107 @@
+{
+  "execution_id": "1775651703982_rtufm15z6",
+  "algorithm_name": "SVM & EBM-SVM",
+  "file_id": "uploaded_data",
+  "timestamp": "2026-04-08T19:35:03.988188",
+  "parameters": {
+    "algorithm": "both"
+  },
+  "results": {
+    "svm": {
+      "accuracy": 0.98,
+      "report": {
+        "0": {
+          "precision": 0.98,
+          "recall": 0.98,
+          "f1-score": 0.98,
+          "support": 50
+        },
+        "1": {
+          "precision": 0.98,
+          "recall": 0.98,
+          "f1-score": 0.98,
+          "support": 50
+        },
+        "accuracy": 0.98,
+        "macro avg": {
+          "precision": 0.98,
+          "recall": 0.98,
+          "f1-score": 0.98,
+          "support": 100
+        },
+        "weighted avg": {
+          "precision": 0.98,
+          "recall": 0.98,
+          "f1-score": 0.98,
+          "support": 100
+        }
+      },
+      "confusion_matrix": [
+        [
+          49,
+          1
+        ],
+        [
+          1,
+          49
+        ]
+      ]
+    },
+    "ebm": {
+      "accuracy": 0.97,
+      "report": {
+        "0": {
+          "precision": 0.9795918367346939,
+          "recall": 0.96,
+          "f1-score": 0.9696969696969697,
+          "support": 50
+        },
+        "1": {
+          "precision": 0.9607843137254902,
+          "recall": 0.98,
+          "f1-score": 0.9702970297029702,
+          "support": 50
+        },
+        "accuracy": 0.97,
+        "macro avg": {
+          "precision": 0.970188075230092,
+          "recall": 0.97,
+          "f1-score": 0.96999699969997,
+          "support": 100
+        },
+        "weighted avg": {
+          "precision": 0.970188075230092,
+          "recall": 0.97,
+          "f1-score": 0.9699969996999698,
+          "support": 100
+        }
+      },
+      "confusion_matrix": [
+        [
+          48,
+          2
+        ],
+        [
+          1,
+          49
+        ]
+      ]
+    }
+  },
+  "analysis": {
+    "accuracy_score": 0.0,
+    "best_metric": "accuracy",
+    "worst_metric": "accuracy",
+    "key_findings": [
+      "M\u00f4 h\u00ecnh ho\u1ea1t \u0111\u1ed9ng k\u00e9m; khuy\u1ebfn ngh\u1ecb t\u1ed1i \u01b0u h\u00f3a \u0111\u1eb7c tr\u01b0ng"
+    ],
+    "recommendations": [
+      "C\u00e2n nh\u1eafc thu th\u1eadp th\u00eam d\u1eef li\u1ec7u hu\u1ea5n luy\u1ec7n \u0111\u1ec3 d\u1ea1y m\u00f4 h\u00ecnh",
+      "Th\u1eed m\u1ed9t s\u1ed1 ph\u01b0\u01a1ng ph\u00e1p l\u1ecdc \u0111\u1eb7c tr\u01b0ng (Feature Selection)",
+      "Th\u1eed nghi\u1ec7m v\u1edbi c\u00e1c si\u00eau tham s\u1ed1 (Hyperparameters) kh\u00e1c nhau"
+    ],
+    "comparison": null
+  },
+  "execution_time": 3.025,
+  "status": "success"
+}

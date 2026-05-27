@@ -1,0 +1,33 @@
+{
+  "execution_id": "1775611325956_dl61sskt4",
+  "algorithm_name": "SVM & EBM-SVM",
+  "file_id": "uploaded_data",
+  "timestamp": "2026-04-08T08:22:05.963428",
+  "parameters": {
+    "algorithm": "both"
+  },
+  "results": {
+    "svm": {
+      "detail": "Not Found"
+    },
+    "ebm": {
+      "detail": "Not Found"
+    }
+  },
+  "analysis": {
+    "accuracy_score": 0.0,
+    "best_metric": "accuracy",
+    "worst_metric": "accuracy",
+    "key_findings": [
+      "Low model performance; feature engineering recommended"
+    ],
+    "recommendations": [
+      "Consider collecting more training data",
+      "Try feature engineering or selection",
+      "Experiment with different model parameters"
+    ],
+    "comparison": null
+  },
+  "execution_time": 0.008,
+  "status": "success"
+}

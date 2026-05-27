@@ -1,0 +1,235 @@
+{
+  "execution_id": "1775651799144_p0oxq6y17",
+  "algorithm_name": "SVM & EBM-SVM",
+  "file_id": "uploaded_data",
+  "timestamp": "2026-04-08T19:36:39.146206",
+  "parameters": {
+    "algorithm": "both"
+  },
+  "results": {
+    "svm": {
+      "accuracy": 0.625,
+      "report": {
+        "3": {
+          "precision": 0,
+          "recall": 0,
+          "f1-score": 0,
+          "support": 2
+        },
+        "4": {
+          "precision": 0,
+          "recall": 0,
+          "f1-score": 0,
+          "support": 11
+        },
+        "5": {
+          "precision": 0.6518987341772152,
+          "recall": 0.7573529411764706,
+          "f1-score": 0.7006802721088436,
+          "support": 136
+        },
+        "6": {
+          "precision": 0.5763888888888888,
+          "recall": 0.6484375,
+          "f1-score": 0.6102941176470588,
+          "support": 128
+        },
+        "7": {
+          "precision": 0.7777777777777778,
+          "recall": 0.35,
+          "f1-score": 0.48275862068965514,
+          "support": 40
+        },
+        "8": {
+          "precision": 0,
+          "recall": 0,
+          "f1-score": 0,
+          "support": 3
+        },
+        "accuracy": 0.625,
+        "macro avg": {
+          "precision": 0.3343442334739803,
+          "recall": 0.29263174019607846,
+          "f1-score": 0.2989555017409263,
+          "support": 320
+        },
+        "weighted avg": {
+          "precision": 0.6048347398030942,
+          "recall": 0.625,
+          "f1-score": 0.6022515902912889,
+          "support": 320
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          103,
+          33,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          42,
+          83,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          24,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    "ebm": {
+      "accuracy": 0.44375,
+      "report": {
+        "3": {
+          "precision": 0,
+          "recall": 0,
+          "f1-score": 0,
+          "support": 2
+        },
+        "4": {
+          "precision": 0,
+          "recall": 0,
+          "f1-score": 0,
+          "support": 11
+        },
+        "5": {
+          "precision": 0.4457831325301205,
+          "recall": 0.5441176470588235,
+          "f1-score": 0.49006622516556286,
+          "support": 136
+        },
+        "6": {
+          "precision": 0.44155844155844154,
+          "recall": 0.53125,
+          "f1-score": 0.4822695035460993,
+          "support": 128
+        },
+        "7": {
+          "precision": 0,
+          "recall": 0,
+          "f1-score": 0,
+          "support": 40
+        },
+        "8": {
+          "precision": 0,
+          "recall": 0,
+          "f1-score": 0,
+          "support": 3
+        },
+        "accuracy": 0.44375,
+        "macro avg": {
+          "precision": 0.14789026234809366,
+          "recall": 0.17922794117647056,
+          "f1-score": 0.16205595478527704,
+          "support": 320
+        },
+        "weighted avg": {
+          "precision": 0.3660812079486778,
+          "recall": 0.44375,
+          "f1-score": 0.401185947113804,
+          "support": 320
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          74,
+          62,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          60,
+          68,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          20,
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "analysis": {
+    "accuracy_score": 0.0,
+    "best_metric": "accuracy",
+    "worst_metric": "accuracy",
+    "key_findings": [
+      "M\u00f4 h\u00ecnh ho\u1ea1t \u0111\u1ed9ng k\u00e9m; khuy\u1ebfn ngh\u1ecb t\u1ed1i \u01b0u h\u00f3a \u0111\u1eb7c tr\u01b0ng"
+    ],
+    "recommendations": [
+      "C\u00e2n nh\u1eafc thu th\u1eadp th\u00eam d\u1eef li\u1ec7u hu\u1ea5n luy\u1ec7n \u0111\u1ec3 d\u1ea1y m\u00f4 h\u00ecnh",
+      "Th\u1eed m\u1ed9t s\u1ed1 ph\u01b0\u01a1ng ph\u00e1p l\u1ecdc \u0111\u1eb7c tr\u01b0ng (Feature Selection)",
+      "Th\u1eed nghi\u1ec7m v\u1edbi c\u00e1c si\u00eau tham s\u1ed1 (Hyperparameters) kh\u00e1c nhau"
+    ],
+    "comparison": null
+  },
+  "execution_time": 7.724,
+  "status": "success"
+}

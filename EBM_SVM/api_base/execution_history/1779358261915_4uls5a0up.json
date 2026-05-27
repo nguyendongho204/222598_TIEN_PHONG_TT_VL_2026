@@ -1,0 +1,33 @@
+{
+  "execution_id": "1779358261915_4uls5a0up",
+  "algorithm_name": "SVM & EBM-SVM",
+  "file_id": "uploaded_data",
+  "timestamp": "2026-05-21T17:11:01.918844",
+  "parameters": {
+    "algorithm": "both"
+  },
+  "results": {
+    "svm": {
+      "detail": "Not Found"
+    },
+    "ebm": {
+      "detail": "Not Found"
+    }
+  },
+  "analysis": {
+    "accuracy_score": 0.0,
+    "best_metric": "accuracy",
+    "worst_metric": "accuracy",
+    "key_findings": [
+      "M\u00f4 h\u00ecnh ho\u1ea1t \u0111\u1ed9ng k\u00e9m; khuy\u1ebfn ngh\u1ecb t\u1ed1i \u01b0u h\u00f3a \u0111\u1eb7c tr\u01b0ng"
+    ],
+    "recommendations": [
+      "C\u00e2n nh\u1eafc thu th\u1eadp th\u00eam d\u1eef li\u1ec7u hu\u1ea5n luy\u1ec7n \u0111\u1ec3 d\u1ea1y m\u00f4 h\u00ecnh",
+      "Th\u1eed m\u1ed9t s\u1ed1 ph\u01b0\u01a1ng ph\u00e1p l\u1ecdc \u0111\u1eb7c tr\u01b0ng (Feature Selection)",
+      "Th\u1eed nghi\u1ec7m v\u1edbi c\u00e1c si\u00eau tham s\u1ed1 (Hyperparameters) kh\u00e1c nhau"
+    ],
+    "comparison": null
+  },
+  "execution_time": 0.006,
+  "status": "success"
+}

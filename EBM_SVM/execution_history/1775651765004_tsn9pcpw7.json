@@ -1,0 +1,107 @@
+{
+  "execution_id": "1775651765004_tsn9pcpw7",
+  "algorithm_name": "SVM & EBM-SVM",
+  "file_id": "uploaded_data",
+  "timestamp": "2026-04-08T19:36:05.006206",
+  "parameters": {
+    "algorithm": "both"
+  },
+  "results": {
+    "svm": {
+      "accuracy": 0.815,
+      "report": {
+        "0": {
+          "precision": 0.7924528301886793,
+          "recall": 0.8484848484848485,
+          "f1-score": 0.8195121951219513,
+          "support": 99
+        },
+        "1": {
+          "precision": 0.8404255319148937,
+          "recall": 0.7821782178217822,
+          "f1-score": 0.8102564102564104,
+          "support": 101
+        },
+        "accuracy": 0.815,
+        "macro avg": {
+          "precision": 0.8164391810517865,
+          "recall": 0.8153315331533153,
+          "f1-score": 0.8148843026891808,
+          "support": 200
+        },
+        "weighted avg": {
+          "precision": 0.8166790445604175,
+          "recall": 0.815,
+          "f1-score": 0.8148380237648531,
+          "support": 200
+        }
+      },
+      "confusion_matrix": [
+        [
+          84,
+          15
+        ],
+        [
+          22,
+          79
+        ]
+      ]
+    },
+    "ebm": {
+      "accuracy": 0.52,
+      "report": {
+        "0": {
+          "precision": 0.5254237288135594,
+          "recall": 0.31313131313131315,
+          "f1-score": 0.3924050632911392,
+          "support": 99
+        },
+        "1": {
+          "precision": 0.5177304964539007,
+          "recall": 0.7227722772277227,
+          "f1-score": 0.6033057851239669,
+          "support": 101
+        },
+        "accuracy": 0.52,
+        "macro avg": {
+          "precision": 0.5215771126337301,
+          "recall": 0.517951795179518,
+          "f1-score": 0.4978554242075531,
+          "support": 200
+        },
+        "weighted avg": {
+          "precision": 0.5215386464719317,
+          "recall": 0.52,
+          "f1-score": 0.4989099278167173,
+          "support": 200
+        }
+      },
+      "confusion_matrix": [
+        [
+          31,
+          68
+        ],
+        [
+          28,
+          73
+        ]
+      ]
+    }
+  },
+  "analysis": {
+    "accuracy_score": 0.0,
+    "best_metric": "accuracy",
+    "worst_metric": "accuracy",
+    "key_findings": [
+      "M\u00f4 h\u00ecnh ho\u1ea1t \u0111\u1ed9ng k\u00e9m; khuy\u1ebfn ngh\u1ecb t\u1ed1i \u01b0u h\u00f3a \u0111\u1eb7c tr\u01b0ng"
+    ],
+    "recommendations": [
+      "C\u00e2n nh\u1eafc thu th\u1eadp th\u00eam d\u1eef li\u1ec7u hu\u1ea5n luy\u1ec7n \u0111\u1ec3 d\u1ea1y m\u00f4 h\u00ecnh",
+      "Th\u1eed m\u1ed9t s\u1ed1 ph\u01b0\u01a1ng ph\u00e1p l\u1ecdc \u0111\u1eb7c tr\u01b0ng (Feature Selection)",
+      "Th\u1eed nghi\u1ec7m v\u1edbi c\u00e1c si\u00eau tham s\u1ed1 (Hyperparameters) kh\u00e1c nhau"
+    ],
+    "comparison": null
+  },
+  "execution_time": 4.415,
+  "status": "success"
+}

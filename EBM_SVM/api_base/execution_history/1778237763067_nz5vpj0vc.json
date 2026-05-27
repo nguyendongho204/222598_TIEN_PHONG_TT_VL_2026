@@ -1,0 +1,133 @@
+{
+  "execution_id": "1778237763067_nz5vpj0vc",
+  "algorithm_name": "SVM & EBM-SVM",
+  "file_id": "uploaded_data",
+  "timestamp": "2026-05-08T17:56:03.075031",
+  "parameters": {
+    "algorithm": "both"
+  },
+  "results": {
+    "svm": {
+      "accuracy": 0.9722222222222222,
+      "report": {
+        "0": {
+          "precision": 1,
+          "recall": 1,
+          "f1-score": 1,
+          "support": 12
+        },
+        "1": {
+          "precision": 0.9333333333333333,
+          "recall": 1,
+          "f1-score": 0.9655172413793104,
+          "support": 14
+        },
+        "2": {
+          "precision": 1,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10
+        },
+        "accuracy": 0.9722222222222222,
+        "macro avg": {
+          "precision": 0.9777777777777779,
+          "recall": 0.9666666666666667,
+          "f1-score": 0.9709618874773139,
+          "support": 36
+        },
+        "weighted avg": {
+          "precision": 0.974074074074074,
+          "recall": 0.9722222222222222,
+          "f1-score": 0.9719701552732407,
+          "support": 36
+        }
+      },
+      "confusion_matrix": [
+        [
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          1,
+          9
+        ]
+      ]
+    },
+    "ebm": {
+      "accuracy": 0.9722222222222222,
+      "report": {
+        "0": {
+          "precision": 1,
+          "recall": 1,
+          "f1-score": 1,
+          "support": 12
+        },
+        "1": {
+          "precision": 0.9333333333333333,
+          "recall": 1,
+          "f1-score": 0.9655172413793104,
+          "support": 14
+        },
+        "2": {
+          "precision": 1,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10
+        },
+        "accuracy": 0.9722222222222222,
+        "macro avg": {
+          "precision": 0.9777777777777779,
+          "recall": 0.9666666666666667,
+          "f1-score": 0.9709618874773139,
+          "support": 36
+        },
+        "weighted avg": {
+          "precision": 0.974074074074074,
+          "recall": 0.9722222222222222,
+          "f1-score": 0.9719701552732407,
+          "support": 36
+        }
+      },
+      "confusion_matrix": [
+        [
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  "analysis": {
+    "accuracy_score": 0.0,
+    "best_metric": "accuracy",
+    "worst_metric": "accuracy",
+    "key_findings": [
+      "M\u00f4 h\u00ecnh ho\u1ea1t \u0111\u1ed9ng k\u00e9m; khuy\u1ebfn ngh\u1ecb t\u1ed1i \u01b0u h\u00f3a \u0111\u1eb7c tr\u01b0ng"
+    ],
+    "recommendations": [
+      "C\u00e2n nh\u1eafc thu th\u1eadp th\u00eam d\u1eef li\u1ec7u hu\u1ea5n luy\u1ec7n \u0111\u1ec3 d\u1ea1y m\u00f4 h\u00ecnh",
+      "Th\u1eed m\u1ed9t s\u1ed1 ph\u01b0\u01a1ng ph\u00e1p l\u1ecdc \u0111\u1eb7c tr\u01b0ng (Feature Selection)",
+      "Th\u1eed nghi\u1ec7m v\u1edbi c\u00e1c si\u00eau tham s\u1ed1 (Hyperparameters) kh\u00e1c nhau"
+    ],
+    "comparison": null
+  },
+  "execution_time": 40.731,
+  "status": "success"
+}

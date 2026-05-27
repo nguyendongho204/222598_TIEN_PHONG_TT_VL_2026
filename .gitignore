@@ -1,0 +1,8 @@
+﻿**/venv/
+**/.venv/
+*.zip
+Baitap/
+EBM_SVM/api_base/data/creditcard.csv
+EBM_SVM/api_base/data/mnist_train.csv
+EBM_SVM/data/creditcard.csv
+EBM_SVM/data/mnist_train.csv

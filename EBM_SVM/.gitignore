@@ -1,0 +1,59 @@
+venv/
+env/
+.venv
+envs/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project root - actual work is in api_base/
+# Keep old files for reference but don't track them
+backend.py
+ebm_svm_integration.py
+generate_data.py
+simple_ebm_example.py
+start-dev.ps1
+explanation.md
+report.md
+report_ebm_svm.md
+cautruc.md
+uploaded_data.csv
+docker-compose.yml
+Dockerfile
+requirements.txt
+.gitignore.bak
+
+# Note: All actual project work should be in api_base/ directory
+# Run: cd api_base && .\start.ps1 (or ./start.sh on Linux)
+venv/
+*.zip
+EBM_SVM/data/*.csv
+EBM_SVM/runapp.txt

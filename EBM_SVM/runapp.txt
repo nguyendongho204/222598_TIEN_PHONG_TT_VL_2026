@@ -1,0 +1,31 @@
+
+Terminal 1 - Chạy Backend:
+
+Terminal 2 - Chạy Frontend:
+
+cd d:\Nam4\ThucTap\EBM_SVM
+
+# Terminal 1
+npm --prefix api_base/frontend start
+
+
+# Terminal 2
+# Chạy lệnh này nếu dùng PowerShell để kích hoạt môi trường ảo, sau đó chạy Backend
+
+.\venv\Scripts\Activate.ps1   
+cd api_base
+python run_api.py
+
+Backend API: http://localhost:8000
+API Health Check: http://localhost:8000/api/health
+Swagger Documentation: http://localhost:8000/docs
+Frontend React App: http://localhost:3000
+
+
+Terminal 2 - Frontend:
+cd frontend
+npm start
+
+Terminal 1 - Backend:
+cd api_base
+python run_api.py

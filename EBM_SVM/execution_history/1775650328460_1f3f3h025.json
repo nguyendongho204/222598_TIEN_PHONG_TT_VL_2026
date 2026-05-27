@@ -1,0 +1,107 @@
+{
+  "execution_id": "1775650328460_1f3f3h025",
+  "algorithm_name": "SVM & EBM-SVM",
+  "file_id": "uploaded_data",
+  "timestamp": "2026-04-08T19:12:08.466529",
+  "parameters": {
+    "algorithm": "both"
+  },
+  "results": {
+    "svm": {
+      "accuracy": 0.98,
+      "report": {
+        "0": {
+          "precision": 0.98,
+          "recall": 0.98,
+          "f1-score": 0.98,
+          "support": 50
+        },
+        "1": {
+          "precision": 0.98,
+          "recall": 0.98,
+          "f1-score": 0.98,
+          "support": 50
+        },
+        "accuracy": 0.98,
+        "macro avg": {
+          "precision": 0.98,
+          "recall": 0.98,
+          "f1-score": 0.98,
+          "support": 100
+        },
+        "weighted avg": {
+          "precision": 0.98,
+          "recall": 0.98,
+          "f1-score": 0.98,
+          "support": 100
+        }
+      },
+      "confusion_matrix": [
+        [
+          49,
+          1
+        ],
+        [
+          1,
+          49
+        ]
+      ]
+    },
+    "ebm": {
+      "accuracy": 0.97,
+      "report": {
+        "0": {
+          "precision": 0.9795918367346939,
+          "recall": 0.96,
+          "f1-score": 0.9696969696969697,
+          "support": 50
+        },
+        "1": {
+          "precision": 0.9607843137254902,
+          "recall": 0.98,
+          "f1-score": 0.9702970297029702,
+          "support": 50
+        },
+        "accuracy": 0.97,
+        "macro avg": {
+          "precision": 0.970188075230092,
+          "recall": 0.97,
+          "f1-score": 0.96999699969997,
+          "support": 100
+        },
+        "weighted avg": {
+          "precision": 0.970188075230092,
+          "recall": 0.97,
+          "f1-score": 0.9699969996999698,
+          "support": 100
+        }
+      },
+      "confusion_matrix": [
+        [
+          48,
+          2
+        ],
+        [
+          1,
+          49
+        ]
+      ]
+    }
+  },
+  "analysis": {
+    "accuracy_score": 0.0,
+    "best_metric": "accuracy",
+    "worst_metric": "accuracy",
+    "key_findings": [
+      "Low model performance; feature engineering recommended"
+    ],
+    "recommendations": [
+      "Consider collecting more training data",
+      "Try feature engineering or selection",
+      "Experiment with different model parameters"
+    ],
+    "comparison": null
+  },
+  "execution_time": 5.201,
+  "status": "success"
+}
