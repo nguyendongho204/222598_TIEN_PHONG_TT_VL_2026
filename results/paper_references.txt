@@ -1,0 +1,116 @@
+====================================================================================================
+  DANH SACH BAI BAO KHOA HOC - 18 UCI DATASETS
+  Chi bao gom SVM, kernel methods, energy-based models.
+  Da loai 5 dataset khong lien quan (xem cuoi file).
+====================================================================================================
+
+1. GLASS (Glass Identification)
+   - UCI ID: 42 | 214 mau, 9 features, 6 lop
+   - Bai bao goc: German, B. (1987). Glass Identification Database. UCI ML Repository.
+     DOI: 10.24432/C5WW2P
+   - SVM + Bayesian Optimization: Zhou, J. et al. (2023). Acc: 99.25%.
+     Highlights in Science Engineering and Technology, 39, 863-871.
+     DOI: 10.54097/hset.v39i.6657
+
+2. ECOLI (Protein Localization Sites)
+   - UCI ID: 39 | 336 mau, 8 features, 8 lop
+   - Bai bao goc: Nakai, K. & Kanehisa, M. (1991). PROTEINS, 11, 95-110.
+   - SVM 87.16%: Das, M. (2024). CEUR-WS Vol 3664.
+     https://ceur-ws.org/Vol-3664/paper15.pdf
+   - MI-SVM 88.12%: Wang, Z. et al. (2026). MLNN 2026, ACM.
+
+3. BALANCE SCALE
+   - UCI ID: 12 | 625 mau, 4 features, 3 lop
+   - Bai bao goc: Siegler, R. (1976). UCI. DOI: 10.24432/C5488X
+   - SVC 91.48%: IJCA WEKA, 2012
+
+4. LIVER (BUPA Liver Disorders)
+   - UCI ID: 60 | 345 mau, 6 features, 2 lop
+   - Bai bao goc: Forsyth, R.S. (1990). UCI.
+   - SVM 73.2%: IJIRTM, 2023.
+   - SVM (Forsyth, 1990): 72.00%
+
+5. SONAR (Sonar, Mines vs Rocks)
+   - UCI ID: 42 | 208 mau, 60 features, 2 lop
+   - SVM + feature reduction: Wenkel, S. (2018). 90.48%
+   - KP-SVM: Maldonado, S. et al. (2011). Information Sciences, 181(1), 115-128.
+
+6. OPTICAL (Optical Recognition of Handwritten Digits)
+   - UCI ID: 80 | 5620 mau, 64 features, 10 lop
+   - Bai bao goc: Kaynak, C. & Alpaydin, E. (1998). UCI. DOI: 10.24432/C50P49
+   - SVM RBF 97%: scikit-learn example (2011)
+   - SVM 98.89%: Mohamedalie, K. GitHub.
+
+7. BANKNOTE (Banknote Authentication)
+   - UCI: 1372 mau, 4 features, 2 lop
+   - SVM RBF 100% (Multiple, 2018-2026)
+
+8. IRIS (Iris Plants)
+   - UCI ID: 53 | 150 mau, 4 features, 3 lop
+   - Bai bao goc: Fisher, R.A. (1936). Annals of Eugenics, 7(2), 179-188.
+   - SVM RBF 100%: Aeberhard et al. (1992)
+
+9. MUSHROOM (Mushroom Records)
+   - UCI: 8124 mau, 22 features, 2 lop
+   - SVM 100% (Multiple sources)
+
+10. WINE (Wine Recognition)
+    - UCI ID: 109 | 178 mau, 13 features, 3 lop
+    - Bai bao goc: Aeberhard, S. & Forina, M. (1991). UCI.
+    - SVM RBF 100% (Aeberhard et al., 1992)
+
+11. SPAMBASE (Spambase)
+    - UCI: 4601 mau, 57 features, 2 lop
+    - C-SVC 93.13%: Guney, S. et al. (2023). IAJIT, 20(1).
+      https://iajit.org/paper/1938
+
+12. BREAST CANCER (Wisconsin Diagnostic)
+    - UCI: 569 mau, 30 features, 2 lop
+    - SVM Gaussian 99.13%: Scielo (2024)
+
+13. CAR (Car Evaluation)
+    - UCI: 1728 mau, 6 features, 4 lop
+    - SVM tuned 99.00%: chiayenho (2022). GitHub.
+
+14. DERMATOLOGY (Dermatology)
+    - UCI: 366 mau, 34 features, 6 lop
+    - SVM optimized 98.61%: Dhanyaa24 (2025). GitHub.
+
+15. HABERMAN (Haberman's Survival)
+    - UCI: 306 mau, 3 features, 2 lop
+    - SVM 74.44%: Aljawad, D.A. et al. (2017).
+      Journal of Theoretical and Applied Information Technology.
+
+16. WINE QUALITY
+    - UCI: 1599 mau, 11 features, 2 lop (binary >=6)
+    - Bai bao goc: Cortez, P. et al. (2009). Decision Support Systems, 47(4), 547-553.
+    - SVM tuned C=3 gamma=1 92.50%: drpress HSET (2023)
+
+17. YEAST (Yeast Protein Localization)
+    - UCI: 1484 mau, 9 features, 10 lop
+    - SVM tuned 98.32%: Martinaa1408 (2025). GitHub.
+
+18. HEART (Heart Disease Cleveland)
+    - UCI ID: 45 | 303 mau, 13 features, 5 lop
+    - Bai bao goc: Detrano, R. et al. (1989). American Journal of Cardiology.
+      DOI: 10.24432/C52P4X
+    - Boosting SVM 99.75%: Alawad, N. et al. (2021). PMC8718315.
+    - SVM 91.7%: Arunachalam et al. (2022).
+
+====================================================================================================
+  DATASET DA LOAI BO (khong lien quan SVM/kernel/EBM)
+====================================================================================================
+  5 dataset sau khong co cong bo SVM/kernel/energy-based:
+
+  - Ionosphere     (3-NN + simplex)
+  - Page Blocks    (Decision Tree)
+  - Waveform       (Optimal Bayes)
+  - Abalone        (Cascade-Correlation)
+  - Vehicle        (Quadratic Discriminant)
+
+====================================================================================================
+  GHI CHU
+====================================================================================================
+- Chi bao gom SVM, kernel methods, energy-based models.
+- Cac bai bao danh dau "GitHub" la repository chua code va ket qua.
+====================================================================================================

@@ -1,0 +1,54 @@
+{
+  "dataset": "PIMA Diabetes",
+  "n_samples": 768,
+  "n_after_iqr": 639,
+  "best_params": {
+    "rbf": {
+      "C": 100,
+      "gamma": 0.01
+    },
+    "cityblock": {
+      "C": 1,
+      "gamma": 0.5
+    },
+    "minkowski": {
+      "C": 1,
+      "gamma": 0.5
+    },
+    "integrated": {
+      "p": 0.8,
+      "C": 1,
+      "gamma": 0.1
+    }
+  },
+  "paper_url": "https://www.sciencedirect.com/science/article/pii/S2666990023000265",
+  "paper_accuracy": 85.5,
+  "paper_f1": 85.2,
+  "paper_auc": 85.5,
+  "our_svm_accuracy": 74.68,
+  "our_svm_auc": 80.89,
+  "our_svm_f1": 62.14,
+  "ebm_svm_v8_accuracy": 72.08,
+  "kernel_results": {
+    "RBF (standard)": {
+      "accuracy": 76.68,
+      "f1_score": 66.91,
+      "auc": 83.03
+    },
+    "RBF City Block": {
+      "accuracy": 78.09,
+      "f1_score": 63.32,
+      "auc": 81.17
+    },
+    "RBF Minkowski (p=3)": {
+      "accuracy": 76.83,
+      "f1_score": 65.49,
+      "auc": 81.66
+    },
+    "Integrated Kernel (p=0.8)": {
+      "accuracy": 77.0,
+      "f1_score": 66.65,
+      "auc": 83.14
+    }
+  }
+}

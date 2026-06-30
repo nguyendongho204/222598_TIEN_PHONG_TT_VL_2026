@@ -1,0 +1,90 @@
+{
+  "execution_id": "20260612_215917_fd2fed2c",
+  "algorithm_name": "EBM-SVM",
+  "file_id": "breast-cancer.csv",
+  "timestamp": "2026-06-12T21:59:17.336753",
+  "parameters": {
+    "test_size": 0.2,
+    "ebm_epochs": 30,
+    "pca_variance": 0.95,
+    "ebm_weight": 0.3,
+    "num_runs": 1
+  },
+  "results": {
+    "dataset_name": "breast-cancer",
+    "samples": 569,
+    "features": 11,
+    "classes": 2,
+    "svm_accuracy": 0.9473684210526315,
+    "rf_accuracy": 0.9736842105263158,
+    "lr_accuracy": 0.9824561403508771,
+    "ebm_accuracy": 0.9736842105263158,
+    "ensemble_accuracy": 0.9824561403508771,
+    "final_accuracy": 0.9824561403508771,
+    "best_model": "LR",
+    "improvement": 3.7037037037037033,
+    "optimal_ebm_weight": 0.0,
+    "pca_components": 11,
+    "precision": [
+      0.9861111111111112,
+      0.9761904761904762
+    ],
+    "recall": [
+      0.9861111111111112,
+      0.9761904761904762
+    ],
+    "f1_score": [
+      0.9861111111111112,
+      0.9761904761904762
+    ],
+    "support": [
+      72,
+      42
+    ],
+    "confusion_matrix": [
+      [
+        71,
+        1
+      ],
+      [
+        1,
+        41
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.9861111111111112,
+        "recall": 0.9861111111111112,
+        "f1-score": 0.9861111111111112,
+        "support": 72.0
+      },
+      "1": {
+        "precision": 0.9761904761904762,
+        "recall": 0.9761904761904762,
+        "f1-score": 0.9761904761904762,
+        "support": 42.0
+      },
+      "accuracy": 0.9824561403508771,
+      "macro avg": {
+        "precision": 0.9811507936507937,
+        "recall": 0.9811507936507937,
+        "f1-score": 0.9811507936507937,
+        "support": 114.0
+      },
+      "weighted avg": {
+        "precision": 0.9824561403508771,
+        "recall": 0.9824561403508771,
+        "f1-score": 0.9824561403508771,
+        "support": 114.0
+      }
+    },
+    "per_class_accuracy": [
+      0.9861111111111112,
+      0.9761904761904762
+    ],
+    "multi_run": null
+  },
+  "analysis": null,
+  "execution_time": 5.728506565093994,
+  "status": "success"
+}

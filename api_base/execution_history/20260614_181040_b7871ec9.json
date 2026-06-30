@@ -1,0 +1,88 @@
+{
+  "execution_id": "20260614_181040_b7871ec9",
+  "algorithm_name": "EBM-SVM",
+  "file_id": "adult.csv",
+  "timestamp": "2026-06-14T18:10:40.642492",
+  "parameters": {
+    "test_size": 0.2,
+    "ebm_epochs": 100,
+    "pca_variance": 0.95,
+    "ebm_weight": 0.5,
+    "num_runs": 1
+  },
+  "results": {
+    "dataset_name": "adult",
+    "samples": 32561,
+    "features": 88,
+    "classes": 2,
+    "svm_accuracy": 0.8456932289267619,
+    "ebm_accuracy": 0.8152924919391985,
+    "ensemble_accuracy": 0.8189774297558728,
+    "final_accuracy": 0.8456932289267619,
+    "best_model": "SVM (baseline)",
+    "improvement": 0.0,
+    "optimal_ebm_weight": 0.5,
+    "pca_components": 88,
+    "precision": [
+      0.8816350251840372,
+      0.7083641746854182
+    ],
+    "recall": [
+      0.9203235591506572,
+      0.6103316326530612
+    ],
+    "f1_score": [
+      0.9005639655684179,
+      0.6557040082219938
+    ],
+    "support": [
+      4945,
+      1568
+    ],
+    "confusion_matrix": [
+      [
+        4551,
+        394
+      ],
+      [
+        611,
+        957
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.8816350251840372,
+        "recall": 0.9203235591506572,
+        "f1-score": 0.9005639655684179,
+        "support": 4945.0
+      },
+      "1": {
+        "precision": 0.7083641746854182,
+        "recall": 0.6103316326530612,
+        "f1-score": 0.6557040082219938,
+        "support": 1568.0
+      },
+      "accuracy": 0.8456932289267619,
+      "macro avg": {
+        "precision": 0.7949995999347277,
+        "recall": 0.7653275959018593,
+        "f1-score": 0.7781339868952059,
+        "support": 6513.0
+      },
+      "weighted avg": {
+        "precision": 0.8399201942947644,
+        "recall": 0.8456932289267619,
+        "f1-score": 0.841614109416231,
+        "support": 6513.0
+      }
+    },
+    "per_class_accuracy": [
+      0.9203235591506572,
+      0.6103316326530612
+    ],
+    "multi_run": null
+  },
+  "analysis": null,
+  "execution_time": 960.802971124649,
+  "status": "success"
+}

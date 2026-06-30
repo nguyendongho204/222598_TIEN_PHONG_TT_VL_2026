@@ -1,0 +1,172 @@
+{
+  "execution_id": "20260624_111857_81853a33",
+  "algorithm_name": "EBM-SVM",
+  "file_id": "glass.csv",
+  "timestamp": "2026-06-24T11:18:57.747102",
+  "parameters": {
+    "test_size": 0.2,
+    "ebm_epochs": 100,
+    "pca_variance": 0.95,
+    "ebm_weight": 0.5,
+    "num_runs": 1
+  },
+  "results": {
+    "dataset_name": "glass",
+    "samples": 214,
+    "features": 10,
+    "classes": 6,
+    "svm_accuracy": 0.8837209302325582,
+    "ebm_accuracy": 0.0,
+    "ensemble_accuracy": 0.9069767441860465,
+    "final_accuracy": 0.9069767441860465,
+    "best_model": "JEPA+SVM",
+    "improvement": 2.6315789473684132,
+    "optimal_ebm_weight": 1.0,
+    "pca_components": 10,
+    "precision": [
+      1.0,
+      0.9333333333333333,
+      0.6666666666666666,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9333333333333333,
+      0.6666666666666666,
+      0.6666666666666666,
+      1.0,
+      0.8333333333333334
+    ],
+    "f1_score": [
+      1.0,
+      0.9333333333333333,
+      0.6666666666666666,
+      0.8,
+      0.6666666666666666,
+      0.9090909090909091
+    ],
+    "support": [
+      14,
+      15,
+      3,
+      3,
+      2,
+      6
+    ],
+    "confusion_matrix": [
+      [
+        14,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        14,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        5
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 14.0
+      },
+      "1": {
+        "precision": 0.9333333333333333,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9333333333333333,
+        "support": 15.0
+      },
+      "2": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 3.0
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 3.0
+      },
+      "4": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 2.0
+      },
+      "5": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 6.0
+      },
+      "accuracy": 0.9069767441860465,
+      "macro avg": {
+        "precision": 0.85,
+        "recall": 0.85,
+        "f1-score": 0.8292929292929294,
+        "support": 43.0
+      },
+      "weighted avg": {
+        "precision": 0.9302325581395349,
+        "recall": 0.9069767441860465,
+        "f1-score": 0.9113460183227625,
+        "support": 43.0
+      }
+    },
+    "per_class_accuracy": [
+      1.0,
+      0.9333333333333333,
+      0.6666666666666666,
+      0.6666666666666666,
+      1.0,
+      0.8333333333333334
+    ],
+    "multi_run": null
+  },
+  "analysis": null,
+  "execution_time": 27.212691068649292,
+  "status": "success"
+}

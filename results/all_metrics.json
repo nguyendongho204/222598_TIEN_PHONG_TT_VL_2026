@@ -1,0 +1,120 @@
+{
+  "svm_baseline": [
+    {
+      "dataset": "Iris",
+      "n_samples": 150,
+      "accuracy": 96.67,
+      "precision": 96.97,
+      "recall": 96.67,
+      "f1": 96.66,
+      "auc": null,
+      "n_classes": 3
+    },
+    {
+      "dataset": "Wine",
+      "n_samples": 178,
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "auc": null,
+      "n_classes": 3
+    },
+    {
+      "dataset": "Breast Cancer",
+      "n_samples": 569,
+      "accuracy": 98.25,
+      "precision": 100.0,
+      "recall": 95.24,
+      "f1": 97.56,
+      "auc": 99.64,
+      "n_classes": 2
+    },
+    {
+      "dataset": "Wine Quality",
+      "n_samples": 1599,
+      "accuracy": 74.38,
+      "precision": 78.71,
+      "recall": 71.35,
+      "f1": 74.85,
+      "auc": 83.31,
+      "n_classes": 2
+    },
+    {
+      "dataset": "Adult (10K)",
+      "n_samples": 32561,
+      "accuracy": 85.63,
+      "precision": 78.01,
+      "recall": 56.12,
+      "f1": 65.28,
+      "auc": 90.08,
+      "n_classes": 2
+    },
+    {
+      "dataset": "PIMA Diabetes",
+      "n_samples": 768,
+      "accuracy": 74.68,
+      "precision": 65.31,
+      "recall": 59.26,
+      "f1": 62.14,
+      "auc": 80.89,
+      "n_classes": 2
+    }
+  ],
+  "ebm_v8": [
+    {
+      "dataset": "Iris",
+      "svm_accuracy": 90.0,
+      "ebm_accuracy": 96.67,
+      "ensemble_accuracy": 90.0,
+      "ensemble_precision": 90.24,
+      "ensemble_recall": 90.0,
+      "ensemble_f1": 89.97
+    },
+    {
+      "dataset": "Wine",
+      "svm_accuracy": 94.44,
+      "ebm_accuracy": 100.0,
+      "ensemble_accuracy": 94.44,
+      "ensemble_precision": 95.83,
+      "ensemble_recall": 93.33,
+      "ensemble_f1": 94.07
+    },
+    {
+      "dataset": "Breast Cancer",
+      "svm_accuracy": 96.49,
+      "ebm_accuracy": 99.12,
+      "ensemble_accuracy": 99.12,
+      "ensemble_precision": 100.0,
+      "ensemble_recall": 90.48,
+      "ensemble_f1": 95.0
+    },
+    {
+      "dataset": "Wine Quality",
+      "svm_accuracy": 75.31,
+      "ebm_accuracy": 79.69,
+      "ensemble_accuracy": 79.69,
+      "ensemble_precision": 80.26,
+      "ensemble_recall": 71.35,
+      "ensemble_f1": 75.54
+    },
+    {
+      "dataset": "Adult (10K)",
+      "svm_accuracy": 85.55,
+      "ebm_accuracy": 84.0,
+      "ensemble_accuracy": 84.14,
+      "ensemble_precision": 77.52,
+      "ensemble_recall": 56.31,
+      "ensemble_f1": 65.24
+    },
+    {
+      "dataset": "PIMA Diabetes",
+      "svm_accuracy": 76.62,
+      "ebm_accuracy": 70.78,
+      "ensemble_accuracy": 70.78,
+      "ensemble_precision": 68.75,
+      "ensemble_recall": 61.11,
+      "ensemble_f1": 64.71
+    }
+  ]
+}

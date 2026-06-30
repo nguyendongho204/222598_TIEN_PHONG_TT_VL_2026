@@ -1,0 +1,13 @@
+DEFAULT_TEST_SIZE = 0.2          # tỉ lệ test mặc định
+DEFAULT_VAL_SIZE = 0.2           # tỉ lệ validation mặc định
+STRATIFY_THRESHOLD = 2           # ngưỡng để stratify split
+RANDOM_SEED = 42                 # seed mặc định
+MAX_UPLOAD_SIZE_BYTES = 50 * 1024 * 1024  # max 50MB
+ALLOWED_FILE_EXTENSIONS = ['.csv']          # chỉ chấp nhận CSV
+STATUS_SUCCESS = 'success'                  # trạng thái thành công
+STATUS_ERROR = 'error'                      # trạng thái lỗi
+ERROR_FILE_NOT_PROVIDED = 'No file provided'
+ERROR_INVALID_FILE_FORMAT = 'Invalid file format (CSV only)'
+ERROR_FILE_TOO_LARGE = 'File too large (max 50MB)'
+ERROR_DATASET_PROCESSING = 'Dataset processing failed'
+ERROR_MODEL_TRAINING = 'Model training failed'

@@ -1,0 +1,68 @@
+[
+  {
+    "dataset": "Iris",
+    "n_samples": 150,
+    "baseline_svm_acc": 96.67,
+    "v9_svm_acc": 96.67,
+    "v9_ebm_acc": 100.0,
+    "v9_ensemble_acc": 100.0,
+    "improvement_vs_baseline": 3.45,
+    "blend_weight": 0.0,
+    "n_classes": 3
+  },
+  {
+    "dataset": "Wine",
+    "n_samples": 178,
+    "baseline_svm_acc": 100.0,
+    "v9_svm_acc": 100.0,
+    "v9_ebm_acc": 97.22,
+    "v9_ensemble_acc": 100.0,
+    "improvement_vs_baseline": 0.0,
+    "blend_weight": 1.0,
+    "n_classes": 3
+  },
+  {
+    "dataset": "Breast Cancer",
+    "n_samples": 569,
+    "baseline_svm_acc": 98.25,
+    "v9_svm_acc": 98.25,
+    "v9_ebm_acc": 95.61,
+    "v9_ensemble_acc": 98.25,
+    "improvement_vs_baseline": 0.0,
+    "blend_weight": 0.0,
+    "n_classes": 2
+  },
+  {
+    "dataset": "Wine Quality",
+    "n_samples": 1599,
+    "baseline_svm_acc": 74.38,
+    "v9_svm_acc": 74.38,
+    "v9_ebm_acc": 78.12,
+    "v9_ensemble_acc": 78.12,
+    "improvement_vs_baseline": 5.04,
+    "blend_weight": 0.1,
+    "n_classes": 2
+  },
+  {
+    "dataset": "Adult (10K)",
+    "n_samples": 32561,
+    "baseline_svm_acc": 84.09,
+    "v9_svm_acc": 84.09,
+    "v9_ebm_acc": 84.28,
+    "v9_ensemble_acc": 84.22,
+    "improvement_vs_baseline": 0.15,
+    "blend_weight": 1.0,
+    "n_classes": 2
+  },
+  {
+    "dataset": "PIMA Diabetes",
+    "n_samples": 768,
+    "baseline_svm_acc": 74.68,
+    "v9_svm_acc": 74.68,
+    "v9_ebm_acc": 73.38,
+    "v9_ensemble_acc": 74.68,
+    "improvement_vs_baseline": 0.0,
+    "blend_weight": 1.0,
+    "n_classes": 2
+  }
+]

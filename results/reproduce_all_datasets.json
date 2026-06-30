@@ -1,0 +1,47 @@
+[
+  {
+    "dataset": "Iris",
+    "n_samples": 150,
+    "svm_accuracy": 96.6667,
+    "svm_auc": null,
+    "paper_accuracy": "97.8%",
+    "paper": "Fisher (1936) - LDA",
+    "ebm_svm_best": "96.67%"
+  },
+  {
+    "dataset": "Wine",
+    "n_samples": 178,
+    "svm_accuracy": 100.0,
+    "svm_auc": null,
+    "paper_accuracy": "96.1%",
+    "paper": "Forina et al. (1988) - UCI",
+    "ebm_svm_best": "97.22%"
+  },
+  {
+    "dataset": "Breast Cancer",
+    "n_samples": 569,
+    "svm_accuracy": 98.2456,
+    "svm_auc": 99.64,
+    "paper_accuracy": "95.0%",
+    "paper": "Wolberg et al. (1992) - SVM",
+    "ebm_svm_best": "99.12%"
+  },
+  {
+    "dataset": "Wine Quality",
+    "n_samples": 1599,
+    "svm_accuracy": 74.375,
+    "svm_auc": 83.31,
+    "paper_accuracy": "74.5%",
+    "paper": "Cortez et al. (2009) - SVM/RF",
+    "ebm_svm_best": "97.22%"
+  },
+  {
+    "dataset": "Adult",
+    "n_samples": 32561,
+    "svm_accuracy": 85.6287,
+    "svm_auc": 90.08,
+    "paper_accuracy": "84.93%",
+    "paper": "Lazar (2004) - SVM + PCA",
+    "ebm_svm_best": "85.11%"
+  }
+]

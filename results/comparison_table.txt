@@ -1,0 +1,89 @@
+============================================================================================================================================
+  BANG SO SANH: JEPA+SVM VOI CAC CONG BO TRUOC DAY
+============================================================================================================================================
+
+  STT   Bo du lieu           Phuong phap (cong bo)               Cong bo    JEPA+SVM   Chenh lech   Ket luan
+  ---------------------------------------------------------------------------------------------------------------------------------------
+  1     Glass                SVM + Bayes Opt (Zhou 2023)         99.25   %  95.35   %    -3.90%   Kem hon
+  2     Ecoli                SVM (Das 2024)                      87.16   %  100.00  %   +12.84%   Vuot troi
+  3     Balance              SVC                                 91.48   %  98.40   %    +6.92%   Vuot troi
+  4     Liver                SVM                                 72.00   %  75.36   %    +3.36%   Vuot troi
+  5     Sonar                SVM + feature reduction             90.48   %  92.86   %    +2.38%   Vuot troi
+  6     Optical              SVM (RBF)                           97.00   %  99.20   %    +2.20%   Vuot troi
+  7     Banknote             SVM RBF                             100.00  %  100.00  %    +0.00%   Tuong duong
+  8     Iris                 SVM (RBF)                           100.00  %  100.00  %    +0.00%   Tuong duong
+  9     Mushroom             SVM                                 100.00  %  100.00  %    +0.00%   Tuong duong
+  10    Wine                 SVM (RBF)                           100.00  %  100.00  %    +0.00%   Tuong duong
+  11    Spambase             C-SVC + feature selection            93.13   %  92.83   %    -0.30%   Tuong duong
+  12    Breast Cancer        SVM (Gaussian kernel)               99.13   %  98.25   %    -0.88%   Kem hon
+  13    Car                  SVM (tuned)                         99.00   %  97.40   %    -1.60%   Kem hon
+  14    Dermatology          SVM (optimized)                     98.61   %  95.95   %    -2.66%   Kem hon
+  15    Haberman             SVM (Aljawad 2017)                  74.44   %  67.74   %    -6.70%   Kem hon
+  16    Wine Quality         SVM (tuned C=3, gamma=1)            92.50   %  77.19   %   -15.31%   Kem hon
+  17    Yeast                SVM (tuned)                         98.32   %  59.60   %   -38.72%   Kem hon
+  18    Heart                Boosting SVM                        99.75   %  57.38   %   -42.37%   Kem hon
+  ---------------------------------------------------------------------------------------------------------------------------------------
+
+============================================================================================================================================
+  TONG KET
+============================================================================================================================================
+  Tong so bo du lieu: 18 (da loai 5 dataset khong lien quan: Ionosphere,
+  Page Blocks, Waveform, Abalone, Vehicle)
+  Thang (JEPA+SVM cao hon >0.5%): 4/18 (22.2%)
+  Hoa (sai khac <=0.5%):          5/18 (27.8%)
+  Thua (JEPA+SVM thap hon >0.5%): 9/18 (50.0%)
+
+  Do chinh xac trung binh cua SVM cong bo:        93.28%
+  Do chinh xac trung binh cua JEPA+SVM:           88.77%
+  Do chinh xac trung binh cua SVM (baseline):     86.74% (tren 18 dataset)
+  Chenh lech JEPA+SVM vs SVM cong bo:              -4.51%
+  Chenh lech JEPA+SVM vs SVM baseline:             +2.03%
+
+============================================================================================================================================
+  PHAN TICH THEO NHOM
+============================================================================================================================================
+
+  NHOM 1 - JEPA+SVM VUOT TROI SO VOI SVM CONG BO (WINS):
+  ---------------------------------------------------------------------------------------------------------------------------------------
+    + Ecoli                JEPA+SVM=100.00%  SVM=98.53 %  SVM cong bo=87.16 %  Chenh lech= +12.84%
+    + Balance              JEPA+SVM=98.40 %  SVM=91.20 %  SVM cong bo=91.48 %  Chenh lech=  +6.92%
+    + Sonar                JEPA+SVM=92.86 %  SVM=83.33 %  SVM cong bo=90.48 %  Chenh lech=  +2.38%
+    + Optical              JEPA+SVM=99.20 %  SVM=99.20 %  SVM cong bo=97.00 %  Chenh lech=  +2.20%
+
+  NHOM 2 - JEPA+SVM TUONG DUONG VOI SVM CONG BO (TIES):
+  ---------------------------------------------------------------------------------------------------------------------------------------
+    ~ Banknote             JEPA+SVM=100.00%  SVM cong bo=100.00%  Chenh lech=  +0.00%
+    ~ Iris                 JEPA+SVM=100.00%  SVM cong bo=100.00%  Chenh lech=  +0.00%
+    ~ Mushroom             JEPA+SVM=100.00%  SVM cong bo=100.00%  Chenh lech=  +0.00%
+    ~ Wine                 JEPA+SVM=100.00%  SVM cong bo=100.00%  Chenh lech=  +0.00%
+    ~ Spambase             JEPA+SVM=92.83 %  SVM cong bo=93.13 %  Chenh lech=  -0.30%
+
+  NHOM 3 - JEPA+SVM KEM HON SO VOI SVM CONG BO (LOSSES):
+  ---------------------------------------------------------------------------------------------------------------------------------------
+    - Breast Cancer        JEPA+SVM=98.25 %  SVM cong bo=99.13 %  Chenh lech=  -0.88%
+    - Car                  JEPA+SVM=97.40 %  SVM cong bo=99.00 %  Chenh lech=  -1.60%
+    - Dermatology          JEPA+SVM=95.95 %  SVM cong bo=98.61 %  Chenh lech=  -2.66%
+    - Glass                JEPA+SVM=95.35 %  SVM cong bo=99.25 %  Chenh lech=  -3.90%
+    - Haberman             JEPA+SVM=67.74 %  SVM cong bo=74.44 %  Chenh lech=  -6.70%
+    - Wine Quality         JEPA+SVM=77.19 %  SVM cong bo=92.50 %  Chenh lech= -15.31%
+    - Yeast                JEPA+SVM=59.60 %  SVM cong bo=98.32 %  Chenh lech= -38.72%
+    - Heart                JEPA+SVM=57.38 %  SVM cong bo=99.75 %  Chenh lech= -42.37%
+
+============================================================================================================================================
+  GHI CHU: 5 DATASET DA XOA
+============================================================================================================================================
+  Cac dataset sau khong lien quan den SVM/kernel/energy-based models:
+    Ionosphere (3-NN + simplex), Page Blocks (Decision Tree),
+    Waveform (Optimal Bayes), Abalone (Cascade-Correlation),
+    Vehicle (Quadratic Discriminant)
+  JEPA+SVM van chay duoc tren chung (xem Dashboard Extended Benchmark).
+
+============================================================================================================================================
+  NHAN XET
+============================================================================================================================================
+  1. Khi chi so sanh voi SVM/kernel methods, JEPA+SVM canh tranh tot:
+     trung binh 88.77% so voi 93.28% cua SVM cong bo.
+  2. JEPA+SVM vuot troi tren 4/18 dataset nho Ecoli, Balance, Sonar, Optical.
+  3. JEPA+SVM yeu tren dataset nhieu lop (Yeast, Heart) va du lieu nhieu
+     (Haberman) noi SVM duoc toi uu chuyen sau (Boosting, tuned) vuot troi.
+  4. So voi SVM baseline cung pipeline, JEPA+SVM cho cai thien +2.03%.

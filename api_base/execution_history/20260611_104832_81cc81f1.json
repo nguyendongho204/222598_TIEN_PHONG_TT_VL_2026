@@ -1,0 +1,104 @@
+{
+  "execution_id": "20260611_104832_81cc81f1",
+  "algorithm_name": "EBM-SVM",
+  "file_id": "Iris.csv",
+  "timestamp": "2026-06-11T10:48:32.111501",
+  "parameters": {
+    "test_size": 0.2,
+    "ebm_epochs": 100,
+    "pca_variance": 0.95,
+    "ebm_weight": 0.5
+  },
+  "results": {
+    "dataset_name": "Iris",
+    "samples": 150,
+    "features": 3,
+    "classes": 4,
+    "svm_accuracy": 1.0,
+    "ebm_accuracy": 1.0,
+    "ensemble_accuracy": 1.0,
+    "final_accuracy": 1.0,
+    "best_model": "EBM+SVM Ensemble",
+    "improvement": 0.0,
+    "optimal_ebm_weight": 0.0,
+    "pca_components": 3,
+    "precision": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "f1_score": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "support": [
+      10,
+      9,
+      11
+    ],
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        11
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
+      },
+      "2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 9.0
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 11.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30.0
+      }
+    },
+    "per_class_accuracy": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "analysis": null,
+  "execution_time": 1.4449825286865234,
+  "status": "success"
+}

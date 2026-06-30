@@ -1,0 +1,23 @@
+{
+  "training_id": "20260518_185757",
+  "timestamp": "2026-05-18T18:57:57.003269",
+  "input_dim": 14,
+  "n_classes": 2,
+  "n_samples": 32561,
+  "n_train": 26048,
+  "n_test": 6513,
+  "ebm_config": {
+    "epochs": 3000,
+    "learning_rate": 0.0001,
+    "hidden_dim": 512,
+    "embedding_dim": 64,
+    "noise_scale": 2.0
+  },
+  "svm_config": {
+    "kernel": "rbf",
+    "C": 1.0
+  },
+  "svm_accuracy_original": 0.8561338860740059,
+  "svm_accuracy_embeddings": 0.8492246276677414,
+  "training_time_seconds": 983.778095
+}

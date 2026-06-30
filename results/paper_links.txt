@@ -1,0 +1,121 @@
+==================================================================
+  LINK BAI BAO - 23 UCI DATASETS
+  (Copy-paste vao trinh duyet de truy cap)
+==================================================================
+
+1. GLASS (214 mau, 9 features)
+   - UCI goc: https://archive.ics.uci.edu/dataset/42/glass+identification
+   - Zhou et al. (2023) SVM + Bayesian Optimization 99.25%:
+     https://drpress.org/ojs/index.php/HSET/article/view/10346
+     DOI: 10.54097/hset.v39i.6657
+
+2. ECOLI (336 mau, 7 features)
+   - UCI goc: https://archive.ics.uci.edu/dataset/39/ecoli
+   - Das (2024) SVM 87.16% (CEUR-WS):
+     https://ceur-ws.org/Vol-3664/paper15.pdf
+   - MI-SVM (MLNN 2026) 88.12%:
+     https://github.com/Tie-Yang/MI-SVM
+
+3. BALANCE SCALE (625 mau, 4 features)
+   - UCI goc: https://archive.ics.uci.edu/dataset/12/balance+scale
+   - Dalal (2023) GitHub:
+     https://github.com/AshutoshDalal97/balance-scale-prediction-using-ml
+
+4. LIVER (345 mau, 5 features)
+   - UCI goc: https://archive.ics.uci.edu/dataset/60/liver+disorders
+   - Mutlu et al. (2022) CNN 75.55%: Springer CCIS Vol 1543
+     https://link.springer.com/book/10.1007/978-3-031-15456-2
+
+5. SONAR (208 mau, 60 features)
+   - UCI goc: https://archive.ics.uci.edu/dataset/42/sonar
+
+6. OPTICAL (5620 mau, 64 features)
+   - UCI goc: https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
+   - Tang & Fei (2025) ACM CFIMA SVM 99.4%:
+     https://dl.acm.org/doi/10.1145/3704558.3705521
+
+7. BANKNOTE (1372 mau, 4 features)
+   - UCI: https://archive.ics.uci.edu/dataset/267/banknote+authentication
+
+8. IRIS (150 mau, 4 features)
+   - UCI goc: https://archive.ics.uci.edu/dataset/53/iris
+   - Olugboja (2025) Springer CSCI 2024:
+     https://link.springer.com/chapter/10.1007/978-3-031-90341-0_11
+
+9. MUSHROOM (8124 mau, 22 features)
+   - UCI: https://archive.ics.uci.edu/dataset/73/mushroom
+
+10. WINE (178 mau, 13 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/109/wine
+    - Olugboja (2025): nhu tren (Iris)
+    - Aeberhard et al. (1992): https://doi.org/10.1007/BF00116832
+
+11. WAVEFORM (5000 mau, 21 features)
+    - UCI: https://archive.ics.uci.edu/dataset/107/waveform+database+generator+version+1
+
+12. PAGE BLOCKS (5473 mau, 10 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/78/page+blocks+classification
+
+13. SPAMBASE (4601 mau, 57 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/94/spambase
+    - Guney et al. (2023) IAJIT C-SVC 93.13%:
+      https://iajit.org/paper/1938
+
+14. BREAST CANCER (569 mau, 30 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+    - PLOS One (2025) SVM 97.07%:
+      https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0326221
+    - Nature IQI-BGWO-SVM 99.25%:
+      https://pmc.ncbi.nlm.nih.gov/articles/PMC11087531
+
+15. CAR (1728 mau, 6 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/19/car+evaluation
+    - chiayenho GitHub (2022):
+      https://github.com/chiayenho/Car-Evaluation-Classification
+
+16. VEHICLE (846 mau, 18 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/149/statlog+vehicle+silhouettes
+    - Belekollie SVM 96.47%:
+      https://github.com/TimothyBelekollie/Vehicle-Silhouette-Classification-using-Unsupervised-Learning
+
+17. DERMATOLOGY (366 mau, 34 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/33/dermatology
+
+18. IONOSPHERE (351 mau, 34 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/52/ionosphere
+
+19. HABERMAN (306 mau, 3 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/43/haberman+s+survival
+
+20. WINE QUALITY (1599 mau, 11 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/186/wine+quality
+    - Bai bao goc Cortez et al. (2009): https://doi.org/10.1016/j.dss.2009.05.016
+    - Jain et al. (2023) Nature SciRep XGBoost 100%:
+      https://pmc.ncbi.nlm.nih.gov/articles/PMC10562461
+    - SVM 74%: https://ijirt.org/publishedpaper/IJIRT187067_PAPER.pdf
+
+21. ABALONE (4177 mau, 8 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/1/abalone
+    - DOI: 10.24432/C55C7W
+
+22. YEAST (1484 mau, 9 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/110/yeast
+
+23. HEART (303 mau, 13 features)
+    - UCI goc: https://archive.ics.uci.edu/dataset/45/heart+disease
+    - Detrano et al. (1989): https://doi.org/10.24432/C52P4X
+    - Alawad et al. (2021) Boosting SVM 99.75%:
+      https://pmc.ncbi.nlm.nih.gov/articles/PMC8718315
+
+==================================================================
+  NGUON THAM KHAO CHINH
+==================================================================
+- UCI ML Repository: https://archive.ics.uci.edu/
+- Google Scholar: https://scholar.google.com/
+- Springer Link: https://link.springer.com/
+- ScienceDirect: https://www.sciencedirect.com/
+- ACM Digital Library: https://dl.acm.org/
+- PMC/PubMed: https://pmc.ncbi.nlm.nih.gov/
+- CEUR Workshop: https://ceur-ws.org/
+- IAJIT: https://iajit.org/
+==================================================================

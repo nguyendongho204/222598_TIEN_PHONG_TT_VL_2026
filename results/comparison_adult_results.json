@@ -1,0 +1,23 @@
+[
+  {
+    "method": "SVM default (C=1, gamma=scale)",
+    "accuracy": 0.8489036299981574,
+    "auc": 0.8986081062761381
+  },
+  {
+    "method": "Lazar2004",
+    "accuracy": 0.8479823106688779,
+    "auc": 0.8984598660313028,
+    "best_C": 16384,
+    "best_gamma": 0.0009765625,
+    "n_features": 14
+  },
+  {
+    "method": "Lazar2004+PCA",
+    "accuracy": 0.8239358761746821,
+    "auc": 0.8289025300658887,
+    "best_C": 1,
+    "best_gamma": 8.0,
+    "n_features": 6
+  }
+]

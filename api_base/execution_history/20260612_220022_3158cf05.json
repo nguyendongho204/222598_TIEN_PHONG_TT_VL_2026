@@ -1,0 +1,108 @@
+{
+  "execution_id": "20260612_220022_3158cf05",
+  "algorithm_name": "EBM-SVM",
+  "file_id": "wine.csv",
+  "timestamp": "2026-06-12T22:00:22.887213",
+  "parameters": {
+    "test_size": 0.2,
+    "ebm_epochs": 30,
+    "pca_variance": 0.95,
+    "ebm_weight": 0.3,
+    "num_runs": 1
+  },
+  "results": {
+    "dataset_name": "wine",
+    "samples": 178,
+    "features": 10,
+    "classes": 3,
+    "svm_accuracy": 0.9444444444444444,
+    "rf_accuracy": 0.9722222222222222,
+    "lr_accuracy": 0.9722222222222222,
+    "ebm_accuracy": 0.9722222222222222,
+    "ensemble_accuracy": 0.9722222222222222,
+    "final_accuracy": 0.9722222222222222,
+    "best_model": "RF",
+    "improvement": 2.941176470588237,
+    "optimal_ebm_weight": 0.0,
+    "pca_components": 10,
+    "precision": [
+      0.9230769230769231,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9285714285714286,
+      1.0
+    ],
+    "f1_score": [
+      0.96,
+      0.9629629629629629,
+      1.0
+    ],
+    "support": [
+      12,
+      14,
+      10
+    ],
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        1,
+        13,
+        0
+      ],
+      [
+        0,
+        0,
+        10
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "f1-score": 0.96,
+        "support": 12.0
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9629629629629629,
+        "support": 14.0
+      },
+      "2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
+      },
+      "accuracy": 0.9722222222222222,
+      "macro avg": {
+        "precision": 0.9743589743589745,
+        "recall": 0.9761904761904763,
+        "f1-score": 0.974320987654321,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 0.9743589743589745,
+        "recall": 0.9722222222222222,
+        "f1-score": 0.9722633744855966,
+        "support": 36.0
+      }
+    },
+    "per_class_accuracy": [
+      1.0,
+      0.9285714285714286,
+      1.0
+    ],
+    "multi_run": null
+  },
+  "analysis": null,
+  "execution_time": 2.695275068283081,
+  "status": "success"
+}

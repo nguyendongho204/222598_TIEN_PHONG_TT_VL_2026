@@ -1,0 +1,197 @@
+{
+  "execution_id": "20260624_185945_6cea1347",
+  "algorithm_name": "EBM-SVM",
+  "file_id": "glass.csv",
+  "timestamp": "2026-06-24T18:59:45.191132",
+  "parameters": {
+    "test_size": 0.2,
+    "num_runs": 3
+  },
+  "results": {
+    "dataset_name": "glass",
+    "samples": 214,
+    "features": 10,
+    "classes": 6,
+    "svm_accuracy": 0.8837209302325582,
+    "ebm_accuracy": 0.0,
+    "ensemble_accuracy": 0.9302325581395349,
+    "final_accuracy": 0.9302325581395349,
+    "best_model": "JEPA+SVM",
+    "improvement": 5.263157894736839,
+    "optimal_ebm_weight": 1.0,
+    "pca_components": 10,
+    "precision": [
+      1.0,
+      0.9375,
+      1.0,
+      1.0,
+      0.5,
+      0.8333333333333334
+    ],
+    "recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.5,
+      0.8333333333333334
+    ],
+    "f1_score": [
+      1.0,
+      0.967741935483871,
+      1.0,
+      0.8,
+      0.5,
+      0.8333333333333334
+    ],
+    "support": [
+      14,
+      15,
+      3,
+      3,
+      2,
+      6
+    ],
+    "confusion_matrix": [
+      [
+        14,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        15,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        5
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 14.0
+      },
+      "1": {
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1-score": 0.967741935483871,
+        "support": 15.0
+      },
+      "2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 3.0
+      },
+      "4": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1-score": 0.5,
+        "support": 2.0
+      },
+      "5": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8333333333333334,
+        "support": 6.0
+      },
+      "accuracy": 0.9302325581395349,
+      "macro avg": {
+        "precision": 0.8784722222222222,
+        "recall": 0.8333333333333331,
+        "f1-score": 0.850179211469534,
+        "support": 43.0
+      },
+      "weighted avg": {
+        "precision": 0.9316860465116279,
+        "recall": 0.9302325581395349,
+        "f1-score": 0.9282820705176293,
+        "support": 43.0
+      }
+    },
+    "per_class_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.5,
+      0.8333333333333334
+    ],
+    "multi_run": {
+      "svm_accuracy": {
+        "mean": 0.8837209302325583,
+        "std": 1.1102230246251565e-16,
+        "values": [
+          0.8837209302325582,
+          0.8837209302325582,
+          0.8837209302325582
+        ]
+      },
+      "ebm_accuracy": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "ensemble_accuracy": {
+        "mean": 0.937984496124031,
+        "std": 0.010962895832349594,
+        "values": [
+          0.9534883720930233,
+          0.9302325581395349,
+          0.9302325581395349
+        ]
+      }
+    }
+  },
+  "analysis": null,
+  "execution_time": 88.1990909576416,
+  "status": "success"
+}

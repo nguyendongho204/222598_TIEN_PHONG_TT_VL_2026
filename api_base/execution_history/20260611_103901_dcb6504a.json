@@ -1,0 +1,86 @@
+{
+  "execution_id": "20260611_103901_dcb6504a",
+  "algorithm_name": "EBM-SVM",
+  "file_id": "adult.csv",
+  "timestamp": "2026-06-11T10:39:01.458696",
+  "parameters": {
+    "test_size": 0.15,
+    "ebm_epochs": 500,
+    "pca_variance": 0.99,
+    "ebm_weight": 0.5
+  },
+  "results": {
+    "dataset_name": "adult",
+    "samples": 32561,
+    "features": 95,
+    "classes": 2,
+    "svm_accuracy": 0.8562947799385875,
+    "ebm_accuracy": 0.8221084953940635,
+    "ensemble_accuracy": 0.8239508700102354,
+    "final_accuracy": 0.8562947799385875,
+    "best_model": "SVM",
+    "improvement": 0.0,
+    "optimal_ebm_weight": 0.0,
+    "pca_components": 95,
+    "precision": [
+      0.8813086482373828,
+      0.7515923566878981
+    ],
+    "recall": [
+      0.9369102183877056,
+      0.6020408163265306
+    ],
+    "f1_score": [
+      0.9082592786199687,
+      0.6685552407932012
+    ],
+    "support": [
+      3709,
+      1176
+    ],
+    "confusion_matrix": [
+      [
+        3475,
+        234
+      ],
+      [
+        468,
+        708
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.8813086482373828,
+        "recall": 0.9369102183877056,
+        "f1-score": 0.9082592786199687,
+        "support": 3709.0
+      },
+      "1": {
+        "precision": 0.7515923566878981,
+        "recall": 0.6020408163265306,
+        "f1-score": 0.6685552407932012,
+        "support": 1176.0
+      },
+      "accuracy": 0.8562947799385875,
+      "macro avg": {
+        "precision": 0.8164505024626405,
+        "recall": 0.7694755173571182,
+        "f1-score": 0.788407259706585,
+        "support": 4885.0
+      },
+      "weighted avg": {
+        "precision": 0.8500811438643646,
+        "recall": 0.8562947799385875,
+        "f1-score": 0.8505536596876702,
+        "support": 4885.0
+      }
+    },
+    "per_class_accuracy": [
+      0.9369102183877056,
+      0.6020408163265306
+    ]
+  },
+  "analysis": null,
+  "execution_time": 1633.0917077064514,
+  "status": "success"
+}
