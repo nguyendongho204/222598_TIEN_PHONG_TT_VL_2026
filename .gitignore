@@ -58,3 +58,8 @@ venv/
 _tmp_zip/
 EBM_SVM/data/*.csv
 EBM_SVM/runapp.txt
+
+# Large datasets (>100MB)
+data/creditcard.csv
+data/mnist_train.csv
+data/mnist_test.csv
